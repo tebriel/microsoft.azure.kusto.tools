@@ -8,4 +8,4 @@ if ! command -v dotnet > /dev/null; then
     exit 1
 fi
 
-dotnet bin/Kusto.Cli.dll
+dotnet bin/Kusto.Cli.dll "$@"
